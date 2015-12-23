@@ -6,6 +6,6 @@ var React = require('react');
 var App = require('./components/app.js');
 
 React.render(
-  React.createElement(App, null),
+  <App />,
   document.getElementById('main')
 );
